@@ -215,3 +215,8 @@ h2{
     margin-left: 7px;
 }
 }
+@media(max-width:370px) {
+    body{
+        height: 210vh;
+    }
+}
