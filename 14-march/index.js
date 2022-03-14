@@ -46,6 +46,9 @@ console.log(timeStr)
    else if(user_weather[0].main == "Haze"){
      img.src = "./haza.png";
  }
+     else if(user_weather[0].main == "Rain"){
+     img.src = "./storm.png";
+ }
  else if(user_weather[0].main == "Smoke"){
      img.src = "./smoke.png";
  }
@@ -86,6 +89,9 @@ console.log(timeStr)
    else if(user_weather[0].main == "Haze"){
     img_container.src = "./haza.png";
  }
+     else if(user_weather[0].main == "Rain"){
+    img_container.src = "./storm.png";
+ }
  else if(user_weather[0].main == "Smoke"){
     img_container.src = "./smoke.png";
  }
@@ -114,6 +120,9 @@ console.log(timeStr)
     }
    else if(second_weather[0].main == "Haze"){
     img_container2.src = "./haza.png";
+ }
+     else if(second_weather[0].main == "Rain"){
+    img_container2.src = "./storm.png";
  }
  else if(second_weather[0].main == "Smoke"){
     img_container2.src = "./smoke.png";
@@ -144,6 +153,9 @@ console.log(timeStr)
     }
    else if(third_weather[0].main == "Haze"){
     img_container3.src = "./haza.png";
+ }
+     else if(third_weather[0].main == "Rain"){
+    img_container3.src = "./storm.png";
  }
  else if(third_weather[0].main == "Smoke"){
     img_container3.src = "./smoke.png";
@@ -176,6 +188,9 @@ if(four_weather[0].main == "Clear"){
 else if(four_weather[0].main == "Haze"){
 img_container4.src = "./haza.png";
 }
+    else if(four_weather[0].main == "Rain"){
+img_container4.src = "./storm.png";
+}
 else if(four_weather[0].main == "Smoke"){
 img_container4.src = "./smoke.png";
 }
@@ -206,6 +221,9 @@ if(five_weather[0].main == "Clear"){
 }
 else if(five_weather[0].main == "Haze"){
 img_container5.src = "./haza.png";
+}
+    else if(five_weather[0].main == "Rain"){
+img_container5.src = "./storm.png";
 }
 else if(five_weather[0].main == "Smoke"){
 img_container5.src = "./smoke.png";
@@ -282,6 +300,9 @@ const handle_search = function(res){
   else if(user_weather[0].main == "Haze"){
     img.src = "./haza.png";
 }
+     else if(user_weather[0].main == "Rain"){
+    img.src = "./storm.png";
+}
 else if(user_weather[0].main == "Smoke"){
     img.src = "./smoke.png";
 }
@@ -323,6 +344,9 @@ else if(user_weather[0].main == "Mist"){
    else if(user_weather[0].main == "Haze"){
     img_container.src = "./haza.png";
  }
+    else if(user_weather[0].main == "Rain"){
+    img_container.src = "./storm.png";
+ }
  else if(user_weather[0].main == "Smoke"){
     img_container.src = "./smoke.png";
  }
@@ -351,6 +375,9 @@ else if(user_weather[0].main == "Mist"){
     }
    else if(second_weather[0].main == "Haze"){
     img_container2.src = "./haza.png";
+ }
+     else if(second_weather[0].main == "Rain"){
+    img_container2.src = "./storm.png";
  }
  else if(second_weather[0].main == "Smoke"){
     img_container2.src = "./smoke.png";
@@ -382,6 +409,9 @@ else if(user_weather[0].main == "Mist"){
    else if(third_weather[0].main == "Haze"){
     img_container3.src = "./haza.png";
  }
+     else if(third_weather[0].main == "Rain"){
+    img_container3.src = "./storm.png";
+ }
  else if(third_weather[0].main == "Smoke"){
     img_container3.src = "./smoke.png";
  }
@@ -411,6 +441,9 @@ const four_weather = res.list[24].weather;
     }
    else if(four_weather[0].main == "Haze"){
     img_container4.src = "./haza.png";
+ }
+    else if(four_weather[0].main == "Rain"){
+    img_container4.src = "./storm.png";
  }
  else if(four_weather[0].main == "Smoke"){
     img_container4.src = "./smoke.png";
@@ -443,6 +476,9 @@ const five_weather = res.list[34].weather;
     }
    else if(five_weather[0].main == "Haze"){
     img_container5.src = "./haza.png";
+ }
+     else if(five_weather[0].main == "Rain"){
+    img_container5.src = "./storm.png";
  }
  else if(five_weather[0].main == "Smoke"){
     img_container5.src = "./smoke.png";
